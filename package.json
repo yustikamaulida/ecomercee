@@ -6,9 +6,43 @@
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
+    "assert": "^2.0.0",
+    "bcrypt": "^4.0.1",
+    "bourbon": "^7.0.0",
+    "byline": "^5.0.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "morgan": "~1.9.1"
-  }
+    "express-session": "^1.17.1",
+    "express-validator": "^6.5.0",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.6",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "mysqli": "^3.0.11",
+    "node-apriori": "^1.0.0",
+    "node-fetch": "^2.6.0",
+    "pump": "^3.0.0",
+    "pumpify": "^2.0.1",
+    "rajaongkir-node-js": "^2.0.1",
+    "through2": "^4.0.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yustikamaulida/ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yustikamaulida/ecommerce/issues"
+  },
+  "homepage": "https://github.com/yustikamaulida/ecommerce#readme",
+  "description": ""
 }
